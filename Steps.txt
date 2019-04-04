@@ -1,0 +1,5 @@
+1. Create Account Azure DevOps
+2. Add to Active Directory New User for Team 1 DP-157 DevOps
+3. Create New Organization in Azure DevOps
+4. Create Repositories in New Organization
+5.	
