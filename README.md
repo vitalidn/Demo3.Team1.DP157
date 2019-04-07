@@ -1,20 +1,42 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Project Demo3
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## About project
+This project is the third demonstration project for the DP-157 DevOps group IT Academy SoftServe.
+The project includes programming, administering a web server, configuring, developing and administering databases.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Goal project "Demo2" 
+Deploy the test environment according to the structure shown in the figure.
+When carrying out the project, the principles were taken into account:
+- assembly of containers from original images (clean build).
+- security (passwords are stored in one file in a safe place).
+- before initializing the database, creating the database structure and importing data are checked.
+- use sticky sessions when working with Load Balancer.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Environment diagram
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+![image](https://github.com/vitalidn/Demo2/blob/master/ENVIRONMENT%20DIAGRAM.jpg)
+
+## Technology stack
+### For realise the main task has chosen next Tools
+* Docker Desktop Community version 2.0.0.03(31259)
+   
+
+### For realise the main task has chosen next docker images:
+* SQL Server 2017 v14.00.3017 (mcr.microsoft.com/mssql/server:2017-latest-ubuntu)
+* .NET Core SDK v2.2.104 (microsoft/dotnet:2.2-sdk)
+* ASP.NET Core Runtime v2.2.104 (microsoft/dotnet:2.2-aspnetcore-runtime)
+* 
+
+## Runbook
+1. Download and install Docker Desktop for Windows and Visual Studio 2017 .
+2. Create a new directory for your application.
+3. Create web application in Visual Studio 2017 using Entity Framework Core.
+4. Create a Dockerfile within your WebApp directory and add the following content:
+5. Create a Dockerfile within your Load Balancer directory and add the following content:
+6. Create a Dockerfile within your MS SQL directory and add the following content:
+7. In the root folder of the project create a docker-compose.yml file and add the following content:        
+For the safe transfer of usernames and passwords, you must create a file with the extension .env.
+It is possible to store logins and passwords in the file, having previously encrypted it. 
+For security reasons, the example does not indicate the real login and password, but you can specify any one at your discretion.
+8. Run PowerShell as Administrator in the project root folder and execute next commands:
+9. Go to your browser and type:
