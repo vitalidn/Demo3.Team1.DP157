@@ -7,10 +7,7 @@ The project includes programming, administering a web server, configuring, devel
 ## Goal project "Demo2" 
 Deploy the test environment according to the structure shown in the figure.
 When carrying out the project, the principles were taken into account:
-- assembly of containers from original images (clean build).
-- security (passwords are stored in one file in a safe place).
-- before initializing the database, creating the database structure and importing data are checked.
-- use sticky sessions when working with Load Balancer.
+
 
 ## Environment diagram
 
