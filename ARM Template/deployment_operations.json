@@ -1,0 +1,516 @@
+[
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/E602CC6A6FCD06C2",
+    "operationId": "E602CC6A6FCD06C2",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:52:17.3415704Z",
+      "duration": "PT20.5929568S",
+      "trackingId": "019de300-ce0c-43de-a6bb-6b465fc050f9",
+      "serviceRequestId": "b28ab0f9-40ae-45e2-927a-365d6709acef",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/ShopFoodstuffs",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "ShopFoodstuffs"
+      },
+      "request": {
+        "content": {
+          "location": "West Europe",
+          "properties": {
+            "siteConfig": {
+              "connectionStrings": [
+                {
+                  "name": "defaultConnection",
+                  "ConnectionString": "Data Source=tcp:mssqldp157.database.windows.net,1433;Initial Catalog=Shopdb;User Id=saw@mssqldp157.database.windows.net;Password=Dp157DevOps!;",
+                  "type": "SQLAzure"
+                }
+              ],
+              "appSettings": [
+                {
+                  "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+                  "value": "89cfc3bc-0fd3-4628-ad63-99c81b1a0bc7"
+                },
+                {
+                  "name": "XDT_MicrosoftApplicationInsights_Mode",
+                  "value": "default"
+                },
+                {
+                  "name": "ApplicationInsightsAgent_EXTENSION_VERSION",
+                  "value": "~2"
+                }
+              ]
+            },
+            "name": "ShopFoodstuffs",
+            "serverFarmId": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourcegroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan",
+            "hostingEnvironment": ""
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/ShopFoodstuffs",
+          "name": "ShopFoodstuffs",
+          "type": "Microsoft.Web/sites",
+          "kind": "app",
+          "location": "West Europe",
+          "properties": {
+            "name": "ShopFoodstuffs",
+            "state": "Running",
+            "hostNames": [
+              "shopfoodstuffs.azurewebsites.net"
+            ],
+            "webSpace": "DP157DevOps-WestEuropewebspace",
+            "selfLink": "https://waws-prod-am2-163.api.azurewebsites.windows.net:454/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/webspaces/DP157DevOps-WestEuropewebspace/sites/ShopFoodstuffs",
+            "repositorySiteName": "ShopFoodstuffs",
+            "owner": null,
+            "usageState": 0,
+            "enabled": true,
+            "adminEnabled": true,
+            "enabledHostNames": [
+              "shopfoodstuffs.azurewebsites.net",
+              "shopfoodstuffs.scm.azurewebsites.net"
+            ],
+            "siteProperties": {
+              "metadata": null,
+              "properties": [
+                {
+                  "name": "LinuxFxVersion",
+                  "value": ""
+                },
+                {
+                  "name": "WindowsFxVersion",
+                  "value": null
+                }
+              ],
+              "appSettings": null
+            },
+            "availabilityState": 0,
+            "sslCertificates": null,
+            "csrs": [],
+            "cers": null,
+            "siteMode": null,
+            "hostNameSslStates": [
+              {
+                "name": "shopfoodstuffs.azurewebsites.net",
+                "sslState": 0,
+                "ipBasedSslResult": null,
+                "virtualIP": null,
+                "thumbprint": null,
+                "toUpdate": null,
+                "toUpdateIpBasedSsl": null,
+                "ipBasedSslState": 0,
+                "hostType": 0
+              },
+              {
+                "name": "shopfoodstuffs.scm.azurewebsites.net",
+                "sslState": 0,
+                "ipBasedSslResult": null,
+                "virtualIP": null,
+                "thumbprint": null,
+                "toUpdate": null,
+                "toUpdateIpBasedSsl": null,
+                "ipBasedSslState": 0,
+                "hostType": 1
+              }
+            ],
+            "computeMode": null,
+            "serverFarm": null,
+            "serverFarmId": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan",
+            "reserved": false,
+            "isXenon": false,
+            "hyperV": false,
+            "lastModifiedTimeUtc": "2019-04-07T20:51:59.8533333",
+            "storageRecoveryDefaultState": "Running",
+            "contentAvailabilityState": 0,
+            "runtimeAvailabilityState": 0,
+            "siteConfig": null,
+            "deploymentId": "ShopFoodstuffs",
+            "trafficManagerHostNames": null,
+            "sku": "Standard",
+            "scmSiteAlsoStopped": false,
+            "targetSwapSlot": null,
+            "hostingEnvironment": null,
+            "hostingEnvironmentProfile": null,
+            "clientAffinityEnabled": true,
+            "clientCertEnabled": false,
+            "clientCertExclusionPaths": null,
+            "hostNamesDisabled": false,
+            "domainVerificationIdentifiers": null,
+            "kind": "app",
+            "outboundIpAddresses": "52.232.56.79,52.232.17.94,52.232.7.155,52.232.18.199,52.232.65.30",
+            "possibleOutboundIpAddresses": "52.232.56.79,52.232.17.94,52.232.7.155,52.232.18.199,52.232.65.30,52.232.64.196,52.232.5.151",
+            "containerSize": 0,
+            "dailyMemoryTimeQuota": 0,
+            "suspendedTill": null,
+            "siteDisabledReason": 0,
+            "functionExecutionUnitsCache": null,
+            "maxNumberOfWorkers": null,
+            "homeStamp": "waws-prod-am2-163",
+            "cloningInfo": null,
+            "hostingEnvironmentId": null,
+            "tags": null,
+            "resourceGroup": "DP157DevOps",
+            "defaultHostName": "shopfoodstuffs.azurewebsites.net",
+            "slotSwapStatus": null,
+            "httpsOnly": false,
+            "redundancyMode": 0,
+            "inProgressOperationId": null,
+            "geoDistributions": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/6FD07060546276BB",
+    "operationId": "6FD07060546276BB",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:51:58.0450346Z",
+      "duration": "PT1.296421S",
+      "trackingId": "d5694652-72b8-4327-9d35-8a4f4d30ae92",
+      "serviceRequestId": "c1006c1b-3c4e-4a2c-9879-f1c1b9bfc841",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "mssqldp157/AllowAllWindowsAzureIps"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "endIpAddress": "0.0.0.0",
+            "startIpAddress": "0.0.0.0"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/firewallRules/AllowAllWindowsAzureIps",
+          "name": "AllowAllWindowsAzureIps",
+          "type": "Microsoft.Sql/servers/firewallRules",
+          "location": "West Europe",
+          "kind": "v12.0",
+          "properties": {
+            "startIpAddress": "0.0.0.0",
+            "endIpAddress": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/55F9AEDEFF60E11C",
+    "operationId": "55F9AEDEFF60E11C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:53:11.8728893Z",
+      "duration": "PT1M15.1242757S",
+      "trackingId": "a722a6d5-bd5d-4528-a573-4adc8403341b",
+      "serviceRequestId": "29c49faa-1cd4-4947-b7f4-36eeb046aac5",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/databases/Shopdb",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "mssqldp157/Shopdb"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "edition": "Standard",
+            "collation": "SQL_Latin1_General_CP1_CI_AS",
+            "maxSizeBytes": "268435456000",
+            "requestedServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/databases/Shopdb",
+          "name": "Shopdb",
+          "type": "Microsoft.Sql/servers/databases",
+          "location": "West Europe",
+          "kind": "v12.0,user",
+          "properties": {
+            "databaseId": "13e85973-8837-4fc5-ac4b-06774715b7f5",
+            "edition": "Standard",
+            "status": "Online",
+            "serviceLevelObjective": "S0",
+            "collation": "SQL_Latin1_General_CP1_CI_AS",
+            "maxSizeBytes": "268435456000",
+            "creationDate": "2019-04-07T20:52:59.22Z",
+            "currentServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b",
+            "requestedServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b",
+            "requestedServiceObjectiveName": "S0",
+            "sampleName": null,
+            "defaultSecondaryLocation": "North Europe",
+            "earliestRestoreDate": "2019-04-07T21:22:59.22Z",
+            "elasticPoolName": null,
+            "containmentState": 2,
+            "readScale": "Disabled",
+            "failoverGroupId": null,
+            "zoneRedundant": false,
+            "isUpgradeRequested": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/EA3481D42BDDC597",
+    "operationId": "EA3481D42BDDC597",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:51:07.337092Z",
+      "duration": "PT10.3760556S",
+      "trackingId": "be3bb5d5-13ea-4b30-8228-5084a075e249",
+      "serviceRequestId": "28417e14-d2d3-423e-b0c7-c8067798599c",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ShopFoodstuffsPlan"
+      },
+      "request": {
+        "content": {
+          "sku": {
+            "name": "S1",
+            "tier": "Standard"
+          },
+          "location": "West Europe",
+          "properties": {
+            "name": "ShopFoodstuffsPlan",
+            "workerSizeId": "0",
+            "numberOfWorkers": "1",
+            "hostingEnvironment": ""
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan",
+          "name": "ShopFoodstuffsPlan",
+          "type": "Microsoft.Web/serverfarms",
+          "kind": "app",
+          "location": "West Europe",
+          "properties": {
+            "serverFarmId": 22492,
+            "name": "ShopFoodstuffsPlan",
+            "workerSize": "Default",
+            "workerSizeId": 0,
+            "workerTierName": null,
+            "numberOfWorkers": 1,
+            "currentWorkerSize": "Default",
+            "currentWorkerSizeId": 0,
+            "currentNumberOfWorkers": 1,
+            "status": "Ready",
+            "webSpace": "DP157DevOps-WestEuropewebspace",
+            "subscription": "8220af72-2dd5-4332-990c-f6ef30bad655",
+            "adminSiteName": null,
+            "hostingEnvironment": null,
+            "hostingEnvironmentProfile": null,
+            "maximumNumberOfWorkers": 10,
+            "planName": "VirtualDedicatedPlan",
+            "adminRuntimeSiteName": null,
+            "computeMode": "Dedicated",
+            "siteMode": null,
+            "geoRegion": "West Europe",
+            "perSiteScaling": false,
+            "maximumElasticWorkerCount": 1,
+            "numberOfSites": 0,
+            "hostingEnvironmentId": null,
+            "isSpot": false,
+            "spotExpirationTime": null,
+            "freeOfferExpirationTime": null,
+            "tags": null,
+            "kind": "app",
+            "resourceGroup": "DP157DevOps",
+            "reserved": false,
+            "isXenon": false,
+            "hyperV": false,
+            "mdmId": "waws-prod-am2-163_22492",
+            "targetWorkerCount": 0,
+            "targetWorkerSizeId": 0,
+            "provisioningState": "Succeeded",
+            "webSiteId": null
+          },
+          "sku": {
+            "name": "S1",
+            "tier": "Standard",
+            "size": "S1",
+            "family": "S",
+            "capacity": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/722E803A24C2E1DE",
+    "operationId": "722E803A24C2E1DE",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:51:05.1840053Z",
+      "duration": "PT0.1792501S",
+      "trackingId": "9f47bbbb-62a9-40cd-86b2-8582cf0d5644",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "ShopFoodstuffs",
+        "apiVersion": "2015-05-01"
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+          "name": "ShopFoodstuffs",
+          "type": "microsoft.insights/components",
+          "location": "westeurope",
+          "tags": {},
+          "kind": "web",
+          "etag": "\"00006a3a-0000-0000-0000-5caa62b40000\"",
+          "properties": {
+            "Ver": "v2",
+            "ApplicationId": "ShopFoodstuffs",
+            "AppId": "843598a7-066c-469d-a29a-8b4a2eaaadc1",
+            "Application_Type": "web",
+            "Flow_Type": null,
+            "Request_Source": "IbizaWebAppExtensionCreate",
+            "InstrumentationKey": "89cfc3bc-0fd3-4628-ad63-99c81b1a0bc7",
+            "Name": "ShopFoodstuffs",
+            "CreationDate": "2019-04-07T20:51:00.2224886+00:00",
+            "PackageId": null,
+            "TenantId": "8220af72-2dd5-4332-990c-f6ef30bad655",
+            "HockeyAppId": null,
+            "HockeyAppToken": null,
+            "provisioningState": "Succeeded",
+            "SamplingPercentage": null,
+            "CustomMetricsOptedInType": null,
+            "Retention": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/1F43D70421AEFBE2",
+    "operationId": "1F43D70421AEFBE2",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:51:04.980412Z",
+      "duration": "PT8.0193756S",
+      "trackingId": "7dbf91cf-aaee-4411-916c-d9b525235482",
+      "serviceRequestId": "1b67151c-b5f0-4641-8a8b-64b49bddd1fa",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "ShopFoodstuffs"
+      },
+      "request": {
+        "content": {
+          "location": "West Europe",
+          "properties": {
+            "ApplicationId": "ShopFoodstuffs",
+            "Request_Source": "IbizaWebAppExtensionCreate"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+          "name": "ShopFoodstuffs",
+          "type": "microsoft.insights/components",
+          "location": "westeurope",
+          "tags": {},
+          "kind": "web",
+          "etag": "\"00006a3a-0000-0000-0000-5caa62b40000\"",
+          "properties": {
+            "Ver": "v2",
+            "ApplicationId": "ShopFoodstuffs",
+            "AppId": "843598a7-066c-469d-a29a-8b4a2eaaadc1",
+            "Application_Type": "web",
+            "Flow_Type": null,
+            "Request_Source": "IbizaWebAppExtensionCreate",
+            "InstrumentationKey": "89cfc3bc-0fd3-4628-ad63-99c81b1a0bc7",
+            "Name": "ShopFoodstuffs",
+            "CreationDate": "2019-04-07T20:51:00.2224886+00:00",
+            "PackageId": null,
+            "TenantId": "8220af72-2dd5-4332-990c-f6ef30bad655",
+            "HockeyAppId": null,
+            "HockeyAppToken": null,
+            "provisioningState": "Succeeded",
+            "SamplingPercentage": null,
+            "CustomMetricsOptedInType": null,
+            "Retention": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/C2D908122B6730EB",
+    "operationId": "C2D908122B6730EB",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:51:56.596563Z",
+      "duration": "PT59.6355266S",
+      "trackingId": "c3315f8d-1a20-4dbf-942d-69abb2afc10a",
+      "serviceRequestId": "a34289a2-196e-4e2d-ad6c-ea8d93e539cb",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157",
+        "resourceType": "Microsoft.Sql/servers",
+        "resourceName": "mssqldp157"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "administratorLogin": "saw",
+            "administratorLoginPassword": "Dp157DevOps!",
+            "version": "12.0"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "kind": "v12.0",
+          "properties": {
+            "administratorLogin": "saw",
+            "version": "12.0",
+            "state": "Ready",
+            "fullyQualifiedDomainName": "mssqldp157.database.windows.net"
+          },
+          "location": "westeurope",
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157",
+          "name": "mssqldp157",
+          "type": "Microsoft.Sql/servers"
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c/operations/08586469366306193538",
+    "operationId": "08586469366306193538",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-07T20:53:12.3834186Z",
+      "duration": "PT0.361497S",
+      "trackingId": "91a6de0b-3e7b-4e73-9d1c-9e519d89af17",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

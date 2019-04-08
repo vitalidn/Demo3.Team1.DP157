@@ -1,0 +1,223 @@
+{
+  "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabasea41f0772-b98c",
+  "name": "Microsoft.WebSiteSQLDatabasea41f0772-b98c",
+  "properties": {
+    "templateHash": "17345835562534261525",
+    "parameters": {
+      "serverName": {
+        "type": "String",
+        "value": "mssqldp157"
+      },
+      "administratorLogin": {
+        "type": "String",
+        "value": "saw"
+      },
+      "administratorLoginPassword": {
+        "type": "SecureString"
+      },
+      "databaseUsername": {
+        "type": "String",
+        "value": "saw"
+      },
+      "databasePassword": {
+        "type": "SecureString"
+      },
+      "databaseName": {
+        "type": "String",
+        "value": "Shopdb"
+      },
+      "edition": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "collation": {
+        "type": "String",
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+      "maxSizeBytes": {
+        "type": "String",
+        "value": "268435456000"
+      },
+      "requestedServiceObjectiveId": {
+        "type": "String",
+        "value": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+      },
+      "serverLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "name": {
+        "type": "String",
+        "value": "ShopFoodstuffs"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ShopFoodstuffsPlan"
+      },
+      "hostingEnvironment": {
+        "type": "String",
+        "value": ""
+      },
+      "location": {
+        "type": "String",
+        "value": "West Europe"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "S1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "DP157DevOps"
+      },
+      "subscriptionId": {
+        "type": "String",
+        "value": "8220af72-2dd5-4332-990c-f6ef30bad655"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "RequestContent, ResponseContent"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-04-07T20:53:12.4592336Z",
+    "duration": "PT2M17.6009106S",
+    "correlationId": "1ad43b7e-7b9b-4505-8aba-acc469b71c86",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Sql",
+        "resourceTypes": [
+          {
+            "resourceType": "servers",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "servers/databases",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "servers/firewallrules",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ShopFoodstuffsPlan"
+          },
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "ShopFoodstuffs"
+          },
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "mssqldp157"
+          },
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "ShopFoodstuffs",
+            "apiVersion": "2015-05-01"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/ShopFoodstuffs",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "ShopFoodstuffs"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "mssqldp157"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/databases/Shopdb",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "mssqldp157/Shopdb"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "mssqldp157"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "mssqldp157/AllowAllWindowsAzureIps"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/microsoft.insights/components/ShopFoodstuffs"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/databases/Shopdb"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/mssqldp157/firewallrules/AllowAllWindowsAzureIps"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/ShopFoodstuffsPlan"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/ShopFoodstuffs"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
