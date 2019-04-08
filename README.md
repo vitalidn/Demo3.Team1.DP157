@@ -4,9 +4,8 @@
 This project is the third demonstration project for the DP-157 DevOps group IT Academy SoftServe.
 The project includes programming, administering a web server, configuring, developing and administering databases.
 
-## Goal project "Demo2" 
-Deploy the test environment according to the structure shown in the figure.
-When carrying out the project, the principles were taken into account:
+## Goal project "Demo3" 
+
 
 
 ## Environment diagram
