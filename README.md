@@ -11,7 +11,7 @@ When carrying out the project, the principles were taken into account:
 
 ## Environment diagram
 
-![image](https://github.com/vitalidn/Demo2/blob/master/ENVIRONMENT%20DIAGRAM.jpg)
+![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/01.jpg)
 
 ## Technology stack
 ### For realise the main task has chosen next Tools
