@@ -1,6 +1,3 @@
-CREATE DATABASE [Shopdb]
-GO
-
 USE [Shopdb]
 CREATE TABLE [Foodstuffs] (
     [Id]     INT            NOT NULL,
