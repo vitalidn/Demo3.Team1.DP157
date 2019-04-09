@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "bookstoreserver"
+        },
+        "administratorLogin": {
+            "value": "saw"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "databaseUsername": {
+            "value": "saw"
+        },
+        "databasePassword": {
+            "value": null
+        },
+        "databaseName": {
+            "value": "MiniMooBookStoreDB"
+        },
+        "edition": {
+            "value": "Standard"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "maxSizeBytes": {
+            "value": "268435456000"
+        },
+        "requestedServiceObjectiveId": {
+            "value": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+        },
+        "serverLocation": {
+            "value": "westeurope"
+        },
+        "name": {
+            "value": "MiniMooBookStore"
+        },
+        "hostingPlanName": {
+            "value": "BookStoreAppPlan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "DP157DevOps"
+        },
+        "subscriptionId": {
+            "value": "8220af72-2dd5-4332-990c-f6ef30bad655"
+        }
+    }
+}
