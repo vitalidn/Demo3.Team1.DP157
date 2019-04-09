@@ -1,0 +1,68 @@
+﻿@model BookStoreProj.Models.BookGenreViewModel
+
+@{
+    ViewData["Title"] = "MiniMoo Catalog";
+}
+
+<h2>Book's Catalog</h2>
+
+<form asp-controller="Books" asp-action="Index" method="get">
+    <p>
+        <b>Genre:</b><select asp-for="BookGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        <b>Author:</b> <input type="text" name="SearchAuthor">
+        <input type="submit" value="Filter" />
+
+        <b>Title:</b> <input type="text" name="SearchTitle">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Books[0].Article)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books[0].Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books[0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Books) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <button formaction="">Add to cart</button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
