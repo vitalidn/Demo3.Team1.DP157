@@ -21,6 +21,8 @@ The project includes programming, administering a web server, configuring, devel
 ![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/04.jpg)
 
 
+Staging Enveroment -https://bookstoredemo3-staging.azurewebsites.net
+Production Enveroment -https://bookstoredemo3.azurewebsites.net
 
 
 ## Technology stack
