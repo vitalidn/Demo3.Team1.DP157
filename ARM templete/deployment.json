@@ -1,0 +1,198 @@
+{
+  "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee",
+  "name": "Microsoft.WebSiteSQLDatabase19eae724-b7ee",
+  "properties": {
+    "templateHash": "15918085504884379327",
+    "parameters": {
+      "serverName": {
+        "type": "String",
+        "value": "minimoobookstoreserver"
+      },
+      "administratorLogin": {
+        "type": "String",
+        "value": "saw"
+      },
+      "administratorLoginPassword": {
+        "type": "SecureString"
+      },
+      "databaseUsername": {
+        "type": "String",
+        "value": "saw"
+      },
+      "databasePassword": {
+        "type": "SecureString"
+      },
+      "databaseName": {
+        "type": "String",
+        "value": "MiniMooBookStoreDB"
+      },
+      "edition": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "collation": {
+        "type": "String",
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+      "maxSizeBytes": {
+        "type": "String",
+        "value": "268435456000"
+      },
+      "requestedServiceObjectiveId": {
+        "type": "String",
+        "value": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+      },
+      "serverLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "name": {
+        "type": "String",
+        "value": "MiniMooBookStore"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "PlanBookStore"
+      },
+      "hostingEnvironment": {
+        "type": "String",
+        "value": ""
+      },
+      "location": {
+        "type": "String",
+        "value": "West Europe"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "S1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "DP157DevOps"
+      },
+      "subscriptionId": {
+        "type": "String",
+        "value": "8220af72-2dd5-4332-990c-f6ef30bad655"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "RequestContent, ResponseContent"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-04-09T17:43:36.7562424Z",
+    "duration": "PT1M47.8390613S",
+    "correlationId": "61ba7b52-c73b-4505-8d48-9bc20f266ba4",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Sql",
+        "resourceTypes": [
+          {
+            "resourceType": "servers",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "servers/databases",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "servers/firewallrules",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "PlanBookStore"
+          },
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "minimoobookstoreserver"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/MiniMooBookStore",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "MiniMooBookStore"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "minimoobookstoreserver"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/databases/MiniMooBookStoreDB",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "minimoobookstoreserver/MiniMooBookStoreDB"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "minimoobookstoreserver"
+          }
+        ],
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "minimoobookstoreserver/AllowAllWindowsAzureIps"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/databases/MiniMooBookStoreDB"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/firewallrules/AllowAllWindowsAzureIps"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore"
+      },
+      {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/MiniMooBookStore"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

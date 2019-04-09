@@ -1,0 +1,398 @@
+[
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/0807FB3288930D7E",
+    "operationId": "0807FB3288930D7E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:43:07.9134441Z",
+      "duration": "PT20.2457483S",
+      "trackingId": "c3e34d7f-9f40-49b1-b1c8-f65ff5c3bc61",
+      "serviceRequestId": "cdb17fdc-8153-40f0-8c6e-6a6391a6ef02",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/MiniMooBookStore",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "MiniMooBookStore"
+      },
+      "request": {
+        "content": {
+          "location": "West Europe",
+          "properties": {
+            "siteConfig": {
+              "connectionStrings": [
+                {
+                  "name": "defaultConnection",
+                  "ConnectionString": "Data Source=tcp:minimoobookstoreserver.database.windows.net,1433;Initial Catalog=MiniMooBookStoreDB;User Id=saw@minimoobookstoreserver.database.windows.net;Password=Dp157DevOps!;",
+                  "type": "SQLAzure"
+                }
+              ],
+              "appSettings": []
+            },
+            "name": "MiniMooBookStore",
+            "serverFarmId": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourcegroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore",
+            "hostingEnvironment": ""
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/sites/MiniMooBookStore",
+          "name": "MiniMooBookStore",
+          "type": "Microsoft.Web/sites",
+          "kind": "app",
+          "location": "West Europe",
+          "properties": {
+            "name": "MiniMooBookStore",
+            "state": "Running",
+            "hostNames": [
+              "minimoobookstore.azurewebsites.net"
+            ],
+            "webSpace": "DP157DevOps-WestEuropewebspace",
+            "selfLink": "https://waws-prod-am2-251.api.azurewebsites.windows.net:454/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/webspaces/DP157DevOps-WestEuropewebspace/sites/MiniMooBookStore",
+            "repositorySiteName": "MiniMooBookStore",
+            "owner": null,
+            "usageState": 0,
+            "enabled": true,
+            "adminEnabled": true,
+            "enabledHostNames": [
+              "minimoobookstore.azurewebsites.net",
+              "minimoobookstore.scm.azurewebsites.net"
+            ],
+            "siteProperties": {
+              "metadata": null,
+              "properties": [
+                {
+                  "name": "LinuxFxVersion",
+                  "value": ""
+                },
+                {
+                  "name": "WindowsFxVersion",
+                  "value": null
+                }
+              ],
+              "appSettings": null
+            },
+            "availabilityState": 0,
+            "sslCertificates": null,
+            "csrs": [],
+            "cers": null,
+            "siteMode": null,
+            "hostNameSslStates": [
+              {
+                "name": "minimoobookstore.azurewebsites.net",
+                "sslState": 0,
+                "ipBasedSslResult": null,
+                "virtualIP": null,
+                "thumbprint": null,
+                "toUpdate": null,
+                "toUpdateIpBasedSsl": null,
+                "ipBasedSslState": 0,
+                "hostType": 0
+              },
+              {
+                "name": "minimoobookstore.scm.azurewebsites.net",
+                "sslState": 0,
+                "ipBasedSslResult": null,
+                "virtualIP": null,
+                "thumbprint": null,
+                "toUpdate": null,
+                "toUpdateIpBasedSsl": null,
+                "ipBasedSslState": 0,
+                "hostType": 1
+              }
+            ],
+            "computeMode": null,
+            "serverFarm": null,
+            "serverFarmId": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore",
+            "reserved": false,
+            "isXenon": false,
+            "hyperV": false,
+            "lastModifiedTimeUtc": "2019-04-09T17:42:52.82",
+            "storageRecoveryDefaultState": "Running",
+            "contentAvailabilityState": 0,
+            "runtimeAvailabilityState": 0,
+            "siteConfig": null,
+            "deploymentId": "MiniMooBookStore",
+            "trafficManagerHostNames": null,
+            "sku": "Standard",
+            "scmSiteAlsoStopped": false,
+            "targetSwapSlot": null,
+            "hostingEnvironment": null,
+            "hostingEnvironmentProfile": null,
+            "clientAffinityEnabled": true,
+            "clientCertEnabled": false,
+            "clientCertExclusionPaths": null,
+            "hostNamesDisabled": false,
+            "domainVerificationIdentifiers": null,
+            "kind": "app",
+            "outboundIpAddresses": "13.69.68.0,137.117.139.180,137.117.140.191,137.117.141.185,137.117.136.145",
+            "possibleOutboundIpAddresses": "13.69.68.0,137.117.139.180,137.117.140.191,137.117.141.185,137.117.136.145,137.117.138.168,137.117.137.197,137.117.138.96",
+            "containerSize": 0,
+            "dailyMemoryTimeQuota": 0,
+            "suspendedTill": null,
+            "siteDisabledReason": 0,
+            "functionExecutionUnitsCache": null,
+            "maxNumberOfWorkers": null,
+            "homeStamp": "waws-prod-am2-251",
+            "cloningInfo": null,
+            "hostingEnvironmentId": null,
+            "tags": null,
+            "resourceGroup": "DP157DevOps",
+            "defaultHostName": "minimoobookstore.azurewebsites.net",
+            "slotSwapStatus": null,
+            "httpsOnly": false,
+            "redundancyMode": 0,
+            "inProgressOperationId": null,
+            "geoDistributions": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/7BC333F75BC4298F",
+    "operationId": "7BC333F75BC4298F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:43:36.5835585Z",
+      "duration": "PT48.9158627S",
+      "trackingId": "8c8660ff-2af3-43af-9128-a52d41fa65fb",
+      "serviceRequestId": "2a63258b-5ca8-4056-a048-e1a794e87f53",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/databases/MiniMooBookStoreDB",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "minimoobookstoreserver/MiniMooBookStoreDB"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "edition": "Standard",
+            "collation": "SQL_Latin1_General_CP1_CI_AS",
+            "maxSizeBytes": "268435456000",
+            "requestedServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/databases/MiniMooBookStoreDB",
+          "name": "MiniMooBookStoreDB",
+          "type": "Microsoft.Sql/servers/databases",
+          "location": "West Europe",
+          "kind": "v12.0,user",
+          "properties": {
+            "databaseId": "f9a246fb-9dd0-4338-b477-356ca72a60f9",
+            "edition": "Standard",
+            "status": "Online",
+            "serviceLevelObjective": "S0",
+            "collation": "SQL_Latin1_General_CP1_CI_AS",
+            "maxSizeBytes": "268435456000",
+            "creationDate": "2019-04-09T17:43:31.29Z",
+            "currentServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b",
+            "requestedServiceObjectiveId": "f1173c43-91bd-4aaa-973c-54e79e15235b",
+            "requestedServiceObjectiveName": "S0",
+            "sampleName": null,
+            "defaultSecondaryLocation": "North Europe",
+            "earliestRestoreDate": "2019-04-09T18:13:31.29Z",
+            "elasticPoolName": null,
+            "containmentState": 2,
+            "readScale": "Disabled",
+            "failoverGroupId": null,
+            "zoneRedundant": false,
+            "isUpgradeRequested": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/15383103F399DA1F",
+    "operationId": "15383103F399DA1F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:42:48.6574473Z",
+      "duration": "PT0.9897515S",
+      "trackingId": "19336a8a-1003-479b-963e-4a178615d8cf",
+      "serviceRequestId": "446876b8-b709-40a5-bb5f-1a5ce3ea47a5",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "minimoobookstoreserver/AllowAllWindowsAzureIps"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "endIpAddress": "0.0.0.0",
+            "startIpAddress": "0.0.0.0"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver/firewallRules/AllowAllWindowsAzureIps",
+          "name": "AllowAllWindowsAzureIps",
+          "type": "Microsoft.Sql/servers/firewallRules",
+          "location": "West Europe",
+          "kind": "v12.0",
+          "properties": {
+            "startIpAddress": "0.0.0.0",
+            "endIpAddress": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/2252CB7BBEC974F9",
+    "operationId": "2252CB7BBEC974F9",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:42:02.7235412Z",
+      "duration": "PT8.6373287S",
+      "trackingId": "37604e18-2475-418a-9df8-adb4e1784366",
+      "serviceRequestId": "b06350f4-2c05-4c3e-ad49-713e3bd7d4ed",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "PlanBookStore"
+      },
+      "request": {
+        "content": {
+          "sku": {
+            "name": "S1",
+            "tier": "Standard"
+          },
+          "location": "West Europe",
+          "properties": {
+            "name": "PlanBookStore",
+            "workerSizeId": "0",
+            "numberOfWorkers": "1",
+            "hostingEnvironment": ""
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Web/serverfarms/PlanBookStore",
+          "name": "PlanBookStore",
+          "type": "Microsoft.Web/serverfarms",
+          "kind": "app",
+          "location": "West Europe",
+          "properties": {
+            "serverFarmId": 8089,
+            "name": "PlanBookStore",
+            "workerSize": "Default",
+            "workerSizeId": 0,
+            "workerTierName": null,
+            "numberOfWorkers": 1,
+            "currentWorkerSize": "Default",
+            "currentWorkerSizeId": 0,
+            "currentNumberOfWorkers": 1,
+            "status": "Ready",
+            "webSpace": "DP157DevOps-WestEuropewebspace",
+            "subscription": "8220af72-2dd5-4332-990c-f6ef30bad655",
+            "adminSiteName": null,
+            "hostingEnvironment": null,
+            "hostingEnvironmentProfile": null,
+            "maximumNumberOfWorkers": 10,
+            "planName": "VirtualDedicatedPlan",
+            "adminRuntimeSiteName": null,
+            "computeMode": "Dedicated",
+            "siteMode": null,
+            "geoRegion": "West Europe",
+            "perSiteScaling": false,
+            "maximumElasticWorkerCount": 1,
+            "numberOfSites": 0,
+            "hostingEnvironmentId": null,
+            "isSpot": false,
+            "spotExpirationTime": null,
+            "freeOfferExpirationTime": null,
+            "tags": null,
+            "kind": "app",
+            "resourceGroup": "DP157DevOps",
+            "reserved": false,
+            "isXenon": false,
+            "hyperV": false,
+            "mdmId": "waws-prod-am2-251_8089",
+            "targetWorkerCount": 0,
+            "targetWorkerSizeId": 0,
+            "provisioningState": "Succeeded",
+            "webSiteId": null
+          },
+          "sku": {
+            "name": "S1",
+            "tier": "Standard",
+            "size": "S1",
+            "family": "S",
+            "capacity": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/5E752D27CB0EA551",
+    "operationId": "5E752D27CB0EA551",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:42:47.5057629Z",
+      "duration": "PT53.4195504S",
+      "trackingId": "23e5a2ea-ddb6-45af-a247-6d3ee543bb0b",
+      "serviceRequestId": "1521df87-aef5-49ad-8d1a-536efdcc2faa",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver",
+        "resourceType": "Microsoft.Sql/servers",
+        "resourceName": "minimoobookstoreserver"
+      },
+      "request": {
+        "content": {
+          "location": "westeurope",
+          "properties": {
+            "administratorLogin": "saw",
+            "administratorLoginPassword": "Dp157DevOps!",
+            "version": "12.0"
+          }
+        }
+      },
+      "response": {
+        "content": {
+          "kind": "v12.0",
+          "properties": {
+            "administratorLogin": "saw",
+            "version": "12.0",
+            "state": "Ready",
+            "fullyQualifiedDomainName": "minimoobookstoreserver.database.windows.net"
+          },
+          "location": "westeurope",
+          "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Sql/servers/minimoobookstoreserver",
+          "name": "minimoobookstoreserver",
+          "type": "Microsoft.Sql/servers"
+        }
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8220af72-2dd5-4332-990c-f6ef30bad655/resourceGroups/DP157DevOps/providers/Microsoft.Resources/deployments/Microsoft.WebSiteSQLDatabase19eae724-b7ee/operations/08586467751765604868",
+    "operationId": "08586467751765604868",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-04-09T17:43:36.7366468Z",
+      "duration": "PT0.1170686S",
+      "trackingId": "b76507fe-7d54-44e7-9a80-8a2203d57447",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]
