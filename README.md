@@ -12,10 +12,6 @@ The project includes programming, administering a web server, configuring, devel
 
 ![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/01.jpg)
 
-![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/02.jpg)
-
-
-![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/03.jpg)
 
 
 ![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/04.jpg)
