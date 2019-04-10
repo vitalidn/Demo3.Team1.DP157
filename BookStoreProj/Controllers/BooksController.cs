@@ -38,7 +38,7 @@ namespace BookStoreProj.Controllers
 
             if (!string.IsNullOrEmpty(SearchAuthor))
             {
-                books = books.Where(s => s.Title.Contains(SearchAuthor));
+                books = books.Where(s => s.Author.Contains(SearchAuthor));
             }
 
             if (!string.IsNullOrEmpty(bookGenre))
