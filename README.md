@@ -9,12 +9,11 @@
 ## Goal project "Demo3" 
 
 
-## Environment diagram
-
+## Environment Diagram
 ![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/01.jpg)
 
-
-![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/04.jpg)
+## Deployment Diagram
+![image](https://github.com/vitalidn/DP157.Team1.Demo3/blob/master/images/02.jpg)
 
 
 #Staging Enveroment - https://minimoobookstore-staging.azurewebsites.net
