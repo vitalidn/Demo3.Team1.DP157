@@ -4,9 +4,9 @@
 ## Continuous Deployment ![image](https://vsrm.dev.azure.com/DP157DevOps/_apis/public/Release/badge/52752702-e31c-4a1b-9602-855eab975bfd/6/12)
 
 
-## Staging Enveroment - https://minimoobookstore-staging.azurewebsites.net
+## Staging Enveroment - https://minibookstore-staging.azurewebsites.net
 
-## Production Enveroment - https://minimoobookstore.azurewebsites.net
+## Production Enveroment - https://minibookstore.azurewebsites.net
 
 
 ## Goal project "Demo3" 
